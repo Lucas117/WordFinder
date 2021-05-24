@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFinder", "WordFinder\WordFinder.csproj", "{5C351A64-AB28-42FA-9E6E-660B8FF871BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFinder.Strategy", "WordFinder.Strategy\WordFinder.Strategy.csproj", "{FD3C3B39-30C5-4B79-99BC-7CE8EA004A93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFinder.Validation", "WordFinder.Validation\WordFinder.Validation.csproj", "{57B5797A-1E28-45A3-9A8B-A9FD26B9AF57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFinder.Utils", "WordFinder.Utils\WordFinder.Utils.csproj", "{4FAD2866-6194-4840-94CA-14EB4583E46D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFinder.Tests", "WordFinder.Tests\WordFinder.Tests.csproj", "{595350E5-33A7-41FB-AA82-F2F788AFE376}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C4C720D7-3389-41C4-BDE3-54D2CD8FE9C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C351A64-AB28-42FA-9E6E-660B8FF871BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C351A64-AB28-42FA-9E6E-660B8FF871BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C351A64-AB28-42FA-9E6E-660B8FF871BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C351A64-AB28-42FA-9E6E-660B8FF871BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD3C3B39-30C5-4B79-99BC-7CE8EA004A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3C3B39-30C5-4B79-99BC-7CE8EA004A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3C3B39-30C5-4B79-99BC-7CE8EA004A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3C3B39-30C5-4B79-99BC-7CE8EA004A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B5797A-1E28-45A3-9A8B-A9FD26B9AF57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B5797A-1E28-45A3-9A8B-A9FD26B9AF57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B5797A-1E28-45A3-9A8B-A9FD26B9AF57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B5797A-1E28-45A3-9A8B-A9FD26B9AF57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FAD2866-6194-4840-94CA-14EB4583E46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FAD2866-6194-4840-94CA-14EB4583E46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FAD2866-6194-4840-94CA-14EB4583E46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FAD2866-6194-4840-94CA-14EB4583E46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{595350E5-33A7-41FB-AA82-F2F788AFE376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595350E5-33A7-41FB-AA82-F2F788AFE376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595350E5-33A7-41FB-AA82-F2F788AFE376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595350E5-33A7-41FB-AA82-F2F788AFE376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C720D7-3389-41C4-BDE3-54D2CD8FE9C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C720D7-3389-41C4-BDE3-54D2CD8FE9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C720D7-3389-41C4-BDE3-54D2CD8FE9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C720D7-3389-41C4-BDE3-54D2CD8FE9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7710AB5-CF08-4919-83DF-8042F609824E}
+	EndGlobalSection
+EndGlobal
